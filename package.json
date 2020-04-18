@@ -6,9 +6,19 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+    "coloreact": "^0.3.1",
+    "prop-types": "^15.7.2",
     "react": "^16.13.1",
+    "react-credit-cards": "^0.8.0",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-google-flight-datepicker": "^0.1.8",
+    "react-md-spinner": "^1.0.0",
+    "react-scripts": "3.4.1",
+    "react-swipeable-views": "^0.13.9",
+    "react-swipeable-views-utils": "^0.13.9",
+    "react-syntax-highlighter": "^12.2.1",
+    "react-youtube": "^7.11.1",
+    "typescript": "^3.8.3"
   },
   "scripts": {
     "start": "react-scripts start",

@@ -1,0 +1,32 @@
+.swatches {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+    .swatches li {
+      cursor: pointer;
+      display: inline-block;
+      height: 2em;
+      margin: 1px;
+      border-width: 3px;
+      border-style: solid;
+      border-color: transparent;
+      width: 2em;
+      transition: box-shadow .3s;
+    }
+  
+    .swatches li:hover {
+      box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    }
+  
+    .swatches li.selected {
+      box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    }
+  
+  .swatch-value {
+    opacity: .5;
+    display: block;
+    text-align: center;
+    padding: 1em;
+  }
